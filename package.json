@@ -6,7 +6,7 @@
   "scripts": {
     "build": "parcel build index.html",
     "start": "parcel index.html",
-    "now-build": "parel build index.html",
+    "now-build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Dunderfelt",
