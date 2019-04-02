@@ -21,11 +21,11 @@ import './heatlayer'
   ])
 
   L.heatLayer(points, {
-    radius: 20,
+    radius: 25,
     max: 1,
     minOpacity: 0,
-    blur: 20,
-    maxZoom: 18
+    blur: 25,
+    maxZoom: 17
   }).addTo(map)
 
   map.on('click', e => {
