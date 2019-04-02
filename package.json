@@ -1,0 +1,23 @@
+{
+  "name": "mapapp",
+  "version": "1.0.0",
+  "description": "An app that shows a map",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Dunderfelt",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "leaflet": "^1.4.0",
+    "leaflet-filelayer": "^1.2.0",
+    "parcel-bundler": "^1.12.3",
+    "simpleheat": "^0.4.0",
+    "togeojson": "^0.16.0"
+  }
+}
